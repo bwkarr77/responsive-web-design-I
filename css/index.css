@@ -1,3 +1,79 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* @mixin phones-and-smaller{ */
+@media (max-width: 599px){
 
+        
+        .container{
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+            /* border: 1px black solid; */
+        }
+
+        nav{
+            order:2;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            line-height: 
+            /* border-top: 1px black solid; */
+        }
+
+        a{
+            padding: 19px 0;
+            font-size: 20px;
+            border-top: 1px black solid;
+            text-decoration: none;
+        }
+
+        .logo{
+            order:1;
+            padding: 0 0 10px 0;
+        }   
+
+
+
+
+    } /*--@media 599--*/
+/* }   --mixin phones-and-smaller-- */
+
+
+/* @mixin tablet-portrait-up{ */
+@media (min-width: 600px){
+
+.container{
+    max-width: 899px;
+}
+
+
+    }  /*--@media 600+ --*/
+/* }       --mixin-tablet-portrait-up-- */
+
+/* @mixin tablet-landscape-up{ */
+@media (min-width: 900px){
+
+    .container{
+        max-width: 1199px;
+    }
+
+
+
+    }   /*--@media 900+ --*/
+/* }       --mixin-tablet-landscape-up-- */
+
+
+/* @mixin computer-screen-up{ */
+@media (min-width: 1200px){
+
+
+
+
+    }   /*--@media 1200+ --*/
+/* }       --mixin-computer screen-up-- */
